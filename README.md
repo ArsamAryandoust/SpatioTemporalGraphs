@@ -3,17 +3,26 @@
 
 ## Jupyter notebooks inside docker containers
 
+Download this repository to home directory:
+```
+cd
+git clone https://github.com/ArsamAryandoust/SpatioTemporalGraphs
+cd SpatioTemporalGraphs
+```
+
 Build Jupyter notebook container:
 ``` 
 docker build -t main_notebook DockerNotebook
 ```
 
-For CPU computation run:
+Compute using CPU with:
 ``` 
 docker run -it -v ~/SpatioTemporalGraphs:/SpatioTemporalGraphs -p 3333:1111 main_notebook
 ```
 
-For GPU computation run:
+Compute using GPUs with:
 ``` 
 docker run -it --gpus all -v ~/SpatioTemporalGraphs:/SpatioTemporalGraphs -p 3333:1111 main_notebook
 ```
+
+
