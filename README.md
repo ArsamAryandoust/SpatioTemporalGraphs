@@ -1,7 +1,7 @@
 # Tackling climate change using spatio-temporal graphs for automated deep learning
 
 
-## Jupyter notebooks inside docker containers
+
 
 Download this repository to home directory:
 ```
@@ -9,6 +9,15 @@ cd
 git clone https://github.com/ArsamAryandoust/SpatioTemporalGraphs
 cd SpatioTemporalGraphs
 ```
+
+## Docker
+
+Build main:
+``` 
+docker build -t main Docker
+```
+
+## Jupyter notebooks inside docker containers
 
 Build Jupyter notebook container:
 ``` 
