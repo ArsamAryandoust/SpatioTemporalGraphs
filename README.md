@@ -1,4 +1,4 @@
-# Tackling climate change using spatio-temporal graphs for automated deep learning
+# Tackling climate change using automated deep learning with spatio-temporal event graphs
 
 
 
