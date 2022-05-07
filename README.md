@@ -2,7 +2,7 @@
 
 We are building an intelligent pipeline from reading raw data to fully analyzing the data in every possible form and shape based on both the passed (potentially) private data and any publicly available data. For this purpose, we are using the flexibility of neural networks for deep learning and combine it with a spatio-temporal event graph model. We use this spatio-temporal graph representation of our data to derive a standardized way of deriving computations graphs using the concept graph neural networks.
 
-![This is an image](figures/drawing.png)
+![png](figures/drawing.png)
 
 
 
